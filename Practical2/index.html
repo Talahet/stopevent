@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+div {
+  padding: 50px;
+  background-color: rgba(55, 0, 0, 0.2);
+  text-align: center;
+  cursor: pointer;
+}
+</style>
+
+<h1>The stopPropagation() Method</h1>
+
+<p>Click DIV 1:</p>
+<div onclick="func2()">DIV 2
+  <div onclick="func1(event)">DIV 1</div>
+</div>
+
+Stop propagation:
+<input type="checkbox" id="check">
+
+<script src="main.js"></script>
+
+
+
+</body>
+</html>
